@@ -19,24 +19,36 @@ Colored outputs make the CLI more user-friendly (thanks to [Colorama](https://py
 
 ## 📂 Project Structure
 
-personal_expense_tracker/
-│── expense_tracker.py # Main program file
-│── expenses.txt # Saved expenses (auto-created if missing)
+personal_expense_tracker/ # Project root folder
+│── expense_tracker/ # Main program file
+│ │── init.py # Marks folder as a Python package
+│ │── cli.py # 
+│ │── tracker.py # Holds the core logic
+│
 │── README.md # Project documentation
+│── setup.py # Makes project installable as a Python package
+│── requirements.txt # Lists dependencies needed to run the project
+│── expenses.txt # Saved expenses (auto-created if missing)
 
 
 ---
+
+## 🔗 Repository
+👉 [GitHub Repository](https://github.com/Laju-okoro/personal_expense_tracker)
+
+---
+
 
 ## ⚡ Installation
 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/your-username/personal-expense-tracker.git
+git clone https://github.com/Laju-okoro/personal-expense-tracker.git
 cd personal-expense-tracker
 
 
-Install dependencies:
+2. Install dependencies:
 
 pip install -r requirements.txt
 
@@ -45,11 +57,13 @@ or install manually:
 
 pip install colorama
 
+
+
 ▶️ Usage
 
-Run the tracker with:
+Run the CLI program with:
 
-python expense_tracker.py
+python -m expense_tracker.cli
 
 
 You’ll see a menu like this:
@@ -78,6 +92,19 @@ Viewing all expenses:
 #   Date & Time          Category     Amount       Description
 1   2025-09-01 10:30:00  Food         $12.50       Lunch
 
+
+📦Installation as a Package
+
+You can also install it locally as a package:
+
+pip install .
+
+
+Then run it with:
+
+expense-tracker
+
+
 📦 Requirements
 
 Python 3.6+
@@ -87,8 +114,7 @@ colorama
 🤝 Contributing
 
 Contributions are welcome!
-Feel free to fork this project and submit a pull request.
 
-📜 License
+👩‍💻 Author
 
-This project is licensed under the MIT License.
+Created with ❤️ by Laju Okoro
