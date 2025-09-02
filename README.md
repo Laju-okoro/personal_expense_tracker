@@ -33,19 +33,14 @@ personal_expense_tracker/ # Project root folder
 
 ---
 
-## 🔗 Repository
-👉 [GitHub Repository](https://github.com/Laju-okoro/personal_expense_tracker)
-
----
-
 
 ## ⚡ Installation
 
 1. Clone this repository:
 
 ```bash
-git clone https://github.com/Laju-okoro/personal-expense-tracker.git
-cd personal-expense-tracker
+git clone https://github.com/Laju-okoro/personal_expense_tracker.git
+cd personal_expense_tracker
 
 
 2. Install dependencies:
