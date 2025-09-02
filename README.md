@@ -53,8 +53,10 @@ or install manually:
 pip install colorama
 
 
+---
 
-▶️ Usage
+
+##▶️ Usage
 
 Run the CLI program with:
 
@@ -71,7 +73,11 @@ You’ll see a menu like this:
 5. 🗑️ Delete an Expense
 6. ❌ Exit
 
-📝 Example
+
+---
+
+
+## 📝 Example
 
 Adding an expense:
 
@@ -88,7 +94,11 @@ Viewing all expenses:
 1   2025-09-01 10:30:00  Food         $12.50       Lunch
 
 
-📦Installation as a Package
+---
+
+
+
+## 📦Installation as a Package
 
 You can also install it locally as a package:
 
@@ -100,16 +110,26 @@ Then run it with:
 expense-tracker
 
 
-📦 Requirements
+---
+
+## 📦 Requirements
 
 Python 3.6+
 
 colorama
 
-🤝 Contributing
+
+---
+
+
+## 🤝 Contributing
 
 Contributions are welcome!
 
-👩‍💻 Author
+
+---
+
+
+##👩‍💻 Author
 
 Created with ❤️ by Laju Okoro
